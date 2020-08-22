@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{FD1AD3A4-F542-41FD-B324-733F03525318}|Default">
+  <MonoDevelop.Ide.ItemProperties.DesignPattern PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DesignPattern/AbstractFactoryDesignPattern.cs">
+    <Files>
+      <File FileName="DesignPattern/Prototype.cs" Line="7" Column="9" />
+      <File FileName="DesignPattern/Program.cs" Line="29" Column="85" />
+      <File FileName="DesignPattern/AbstractFactoryDesignPattern.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DesignPattern" expanded="True">
+            <Node name="DesignPattern" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Prototype.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

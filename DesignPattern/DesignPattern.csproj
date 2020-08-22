@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{FD1AD3A4-F542-41FD-B324-733F03525318}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DesignPattern</RootNamespace>
+    <AssemblyName>DesignPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonDesinPattern.cs" />
+    <Compile Include="FactoryDesignPattern.cs" />
+    <Compile Include="PrototypeDesiignPattern.cs" />
+    <Compile Include="AbstractFactoryDesignPattern.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <DotNetNamingPolicy ResourceNamePolicy="FileFormatDefault" DirectoryNamespaceAssociation="PrefixedHierarchical" />
+          <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
+          <CSharpFormattingPolicy IndentBlock="True" IndentBraces="False" IndentSwitchSection="True" IndentSwitchCaseSection="True" LabelPositioning="OneLess" NewLinesForBracesInTypes="True" NewLinesForBracesInMethods="True" NewLinesForBracesInProperties="True" NewLinesForBracesInAccessors="True" NewLinesForBracesInAnonymousMethods="True" NewLinesForBracesInControlBlocks="True" NewLinesForBracesInAnonymousTypes="True" NewLinesForBracesInObjectCollectionArrayInitializers="True" NewLinesForBracesInLambdaExpressionBody="True" NewLineForElse="True" NewLineForCatch="True" NewLineForFinally="True" NewLineForMembersInObjectInit="True" NewLineForMembersInAnonymousTypes="True" NewLineForClausesInQuery="True" SpacingAfterMethodDeclarationName="False" SpaceWithinMethodDeclarationParenthesis="False" SpaceBetweenEmptyMethodDeclarationParentheses="False" SpaceAfterMethodCallName="False" SpaceWithinMethodCallParentheses="False" SpaceBetweenEmptyMethodCallParentheses="False" SpaceAfterControlFlowStatementKeyword="True" SpaceWithinExpressionParentheses="False" SpaceWithinCastParentheses="False" SpaceWithinOtherParentheses="False" SpaceAfterCast="False" SpacesIgnoreAroundVariableDeclaration="False" SpaceBeforeOpenSquareBracket="False" SpaceBetweenEmptySquareBrackets="False" SpaceWithinSquareBrackets="False" SpaceAfterColonInBaseTypeDeclaration="True" SpaceAfterComma="True" SpaceAfterDot="False" SpaceAfterSemicolonsInForStatement="True" SpaceBeforeColonInBaseTypeDeclaration="True" SpaceBeforeComma="False" SpaceBeforeDot="False" SpaceBeforeSemicolonsInForStatement="False" SpacingAroundBinaryOperator="Single" WrappingPreserveSingleLine="True" WrappingKeepStatementsOnSingleLine="True" scope="text/x-csharp" />
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabsToSpaces="True" scope="text/plain" />
+          <TextStylePolicy inheritsSet="null" scope="application/config+xml" />
+          <XmlFormattingPolicy inheritsSet="null" scope="application/config+xml" />
+          <TextStylePolicy inheritsSet="null" scope="application/xml" />
+          <XmlFormattingPolicy scope="application/xml">
+            <DefaultFormat OmitXmlDeclaration="False" IndentContent="True" AttributesInNewLine="False" MaxAttributesPerLine="10" WrapAttributes="False" AlignAttributes="False" AlignAttributeValues="False" QuoteChar="&quot;" SpacesBeforeAssignment="0" SpacesAfterAssignment="0" EmptyLinesBeforeStart="0" EmptyLinesAfterStart="0" EmptyLinesBeforeEnd="0" EmptyLinesAfterEnd="0" />
+          </XmlFormattingPolicy>
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

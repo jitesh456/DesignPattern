@@ -1,0 +1,12 @@
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/bin/Debug/DesignPattern.exe
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/bin/Debug/DesignPattern.pdb
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/obj/Debug/DesignPattern.csproj.CoreCompileInputs.cache
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/obj/Debug/DesignPattern.exe
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/obj/Debug/DesignPattern.pdb
+/Users/riteshdubey/Desktop/MyGitProject/DesignPattern/DesignPattern/obj/Debug/DesignPattern.csprojAssemblyReference.cache
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/obj/Debug/DesignPattern.csprojAssemblyReference.cache
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/obj/Debug/DesignPattern.csproj.CoreCompileInputs.cache
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/obj/Debug/DesignPattern.exe
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/obj/Debug/DesignPattern.pdb
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/bin/Debug/DesignPattern.exe
+/Users/riteshdubey/Desktop/MYDotNetProJECT/DesignPattern/DesignPattern/bin/Debug/DesignPattern.pdb
